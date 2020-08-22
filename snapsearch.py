@@ -12,11 +12,11 @@ verify_snap = "https://snapchat.com/add/{}".format(username)
 r = requests.get(check_snap)
 
 if "image clip" in r.text:
-    print(Fore.YELLOW + "[!] Snapchat Exists!")
+    print(Fore.YELLOW + "[!] Snapchat found!")
     verify = input("Do you want to verify? " + Fore.RED + "(y/n) " + Fore.WHITE)
     if verify == "y":
         webbrowser.open(verify_snap)
     else:
         exit()
 else:
-    print(Fore.YELLOW + "Snapchat Doesn't Exist!")
+    print(Fore.YELLOW + "Snapchat can't be found.")
