@@ -19,4 +19,4 @@ if "image clip" in r.text:
     else:
         exit()
 else:
-    print("Snapchat Doesn't Exist!")
+    print(Fore.YELLOW + "Snapchat Doesn't Exist!")
