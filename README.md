@@ -6,3 +6,5 @@ Enter a possible Snapchat username and check to see if that Snapchat username ex
 Choose whether you want to check a single username or search in bulk with a csv.
 
 To search in bulk, populate the csv (snapsearch.csv) with all the usernames you want to search.
+
+After a certain number of requests from your IP, Snapcodes stop returning and results show up negative. 
