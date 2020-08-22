@@ -13,7 +13,7 @@ r = requests.get(check_snap)
 
 if "image clip" in r.text:
     print(Fore.YELLOW + "[!] Snapchat Exists!")
-    verify = input("Do you want to verify? " + Fore.RED + "(y/n) ")
+    verify = input("Do you want to verify? " + Fore.RED + "(y/n) " + Fore.WHITE)
     if verify == "y":
         webbrowser.open(verify_snap)
     else:
