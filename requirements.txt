@@ -1,0 +1,5 @@
+webbrowser
+requests
+pyfiglet
+colorama
+csv
